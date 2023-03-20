@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Background action extension",
+  "version": "1.0",
+  "description": "An extension that runs in the background",
+  "background": {
+    "service_worker": "wrapper.js"
+  },
+  "permissions": ["alarms"],
+  "action": {}
+}
