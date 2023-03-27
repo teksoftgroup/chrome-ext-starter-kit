@@ -6,19 +6,35 @@
 
     <link rel="stylesheet" type="text/css" href="../css/pico.min.css" />
     <style>
-      html {
+      html,
+      body {
+        margin: 0;
+        padding: 0;
         width: 400px;
       }
     </style>
   </head>
   <body>
     <main class="container">
-      <h3>Browser Action Extension</h3>
+      <h3>
+        Browser Action Extension
+        <p>
+          <small>You can see what sort of action we have to deal with</small>
+        </p>
+      </h3>
       <div>
         <div>Your name is <span id="textDisplay">User</span></div>
         <input placeholder="Enter text" type="text" id="textEntry" />
-        <button>Send Info</button>
+        <a href="#" role="button" class="primary">Sign In</a>
+        <a href="#" role="button" class="secondary">Register</a>
+        <button>Something happened</button>
       </div>
+      <blockquote>
+        "bat chen tann met li"
+        <footer>
+          <cite>- Haitian Proverb</cite>
+        </footer>
+      </blockquote>
     </main>
 
     <script src="../scripts/popup.js"></script>
